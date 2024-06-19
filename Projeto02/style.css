@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(4, 136, 224);
+    font: normal 16pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    min-height: 200px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+#saida{
+    text-align: center;
+    align-items: center;
+}
+#btn_res{
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
