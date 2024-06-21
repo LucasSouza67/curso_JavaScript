@@ -1,0 +1,45 @@
+:root{
+    --cor1: #006DA4;
+    --cor2: #006494;
+    --cor3: #004d74;
+    --corCorpo: white;
+}
+
+body{
+    text-align: center;
+    background-color: var(--cor3);
+    color:var(--corCorpo);
+}
+section{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+div{
+    width: 50vw;
+    height: 30vh;
+}
+#entrada{
+    background-color: var(--cor2);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#btn_calculo{
+    border-radius: 5px;
+    border-style: none;
+    padding: 2px;
+}
+#res{
+    background-color: whitesmoke;
+}
+footer{
+    background-color: var(--cor2);
+}
+footer a{
+    color: var(--corCorpo);
+    
+}
