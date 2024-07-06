@@ -1,0 +1,46 @@
+:root{
+    --corFundo: #a5abb1;
+    --corBox: #ede6de;
+}
+
+body{
+    background-color: var(--corFundo);
+    text-align: center;
+}
+#principal{
+    background-color: var(--corBox);
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.705);
+}
+#btnExibir, #lista{
+    margin-left: -500px;
+}
+#btnAd, #btnExibir{
+    border-radius: 5px;
+    border-color: gray;
+    padding: 5px;
+}
+#btnAd:hover{
+    cursor: pointer;
+    margin-left: 5px;
+}
+#btnExibir:hover{
+    cursor: pointer;
+    margin-top: 2px;
+}
+#lista{
+    width: 150px;
+    margin: auto;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: gray;
+}
